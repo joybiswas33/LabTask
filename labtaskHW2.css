@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #222;
+}
+
+.page {
+    width: 680px;
+    margin: 300px auto 0;
+    padding: 0 8px 30px;
+    background: #eeeeee;
+    border: 1px solid #777;
+}
+
+.required {
+    padding: 4px 0 8px 8px;
+    color: #555;
+    font-size: 11px;
+}
+
+.required span,
+.row label span {
+    color: rgb(90, 57, 241);
+    font-weight: bold;
+}
+
+.steps {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #2942e6;
+    font-size: 18px;
+    margin: 5px 0 2px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 215px 1fr;
+    min-height: 22px;
+    align-items: center;
+}
+
+.row > label:first-child {
+    text-align: right;
+    padding-right: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 244px;
+    height: 20px;
+    border: 1px solid #aaa;
+    background: rgb(163, 149, 149);
+}
+
+select {
+    width: 130px;
+}
+
+.country {
+    width: 300px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 3px;
+}
+
+.inline {
+    font-weight: normal !important;
+    margin-right: 5px;
+}
+
+.small {
+    font-size: 10px;
+    margin: 2px 0;
+}
+
+.small-input {
+    width: 65px !important;
+}
+
+.mini-input {
+    width: 55px;
+    height: 20px;
+    border: 1px solid #aaa;
+}
+
+.block {
+    display: block;
+    font-weight: normal !important;
+    margin-bottom: 3px;
+}
+
+.description {
+    font-size: 11px;
+    color: #555;
+    margin: 0 0 3px 0;
+}
+
+.checkbox-list {
+    margin: 5px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.checkbox-list label {
+    font-weight: normal;
+}
+
+.comments {
+    display: grid;
+    grid-template-columns: 215px 1fr;
+    margin-top: 7px;
+}
+
+.comments > label {
+    text-align: right;
+    padding-right: 8px;
+    font-weight: bold;
+}
+
+.comments small {
+    font-weight: normal;
+    font-size: 10px;
+}
+
+textarea {
+    width: 325px;
+    height: 75px;
+    border: 1px solid #aaa;
+    resize: none;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 215px 1fr;
+    margin-top: 6px;
+}
+
+.contact > label {
+    text-align: right;
+    padding-right: 8px;
+    font-weight: bold;
+}
+
+.contact > div {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.contact label {
+    font-weight: normal;
+}
+
+.newsletter {
+    margin: 8px 0 2px;
+    color: #777;
+    font-size: 11px;
+}
+
+.newsletter-options {
+    margin-left: 215px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.volunteer {
+    display: block;
+    margin-top: 7px;
+    font-weight: normal;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 15px;
+}
+
+button {
+    border: 1px solid #999;
+    border-radius: 12px;
+    background: linear-gradient(#fff, #ddd);
+    padding: 2px 12px;
+    margin: 0 2px;
+    font-size: 11px;
+}
+
+.secure {
+    margin-top: 14px;
+    font-size: 11px;
+}
+
+.support {
+    font-size: 11px;
+    color: #555;
+}
+
+.support span {
+    color: #888;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #5ca8df;
+    box-shadow: 0 0 3px #5ca8df;
+}
